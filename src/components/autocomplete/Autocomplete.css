@@ -1,0 +1,39 @@
+.autocomplete {
+	background-color: aliceblue;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.autocomplete__label {
+	margin: 10px 0;
+}
+
+.autocomplete__input {
+	margin: 0 0 0 10px;
+	width: 100%;
+	padding: 3px 5px;
+}
+
+.autocomplete__list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.autocomplete__item {
+	background-color: lightblue;
+	padding: 7px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.autocomplete__country-name {
+	flex-grow: 1;
+}
+
+.autocomplete__country-flag {
+	font-size: small;
+}
