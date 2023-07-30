@@ -1,8 +1,9 @@
 import Autocomplete from './components/autocomplete/Autocomplete';
+import './App.css';
 
 function App() {
 	return (
-		<div>
+		<div className="App">
 			<Autocomplete />
 		</div>
 	);
