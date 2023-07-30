@@ -1,46 +1,72 @@
-# Getting Started with Create React App
+# Auto-Complete Component in React TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains an auto-complete component developed in React using TypeScript. The component allows users to search and select items from a provided data source and displays suggestions as the user types.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Development Server](#running-the-development-server)
+- [Usage](#usage)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Getting Started
+
+### Prerequisites
+
+Before running the application, you need to have the following installed on your machine:
+
+- Node.js (https://nodejs.org) with npm (Node Package Manager)
+
+### Installation
+
+1. Clone this repository to your local machine using:
+
+   ### `git clone git@github.com:aidoha/autocomplete-deel.git`
+
+2. Navigate to the project directory:
+
+   ### `cd autocomplete-component`
+
+3. Install the dependencies using npm:
+
+   ### `npm install`
+
+### Running the Development Server
+
+To start the development server and view the application, run the following command:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The development server should start, and the application will be accessible at `http://localhost:3000` in your web browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Usage
 
-### `npm test`
+Once the development server is running, open your web browser and navigate to `http://localhost:3000` to access the auto-complete component. You can start typing in the input field, and the component will display matching suggestions based on the data source.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Asynchronous filtering of data for a real-time auto-complete experience.
+- Highlights the matching part of the text in the suggestions.
+- Fully functional React component implemented using hooks.
+- Basic CSS styling to provide a decent user interface.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React
+- TypeScript
+- HTML/CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
+Contributions to this project are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Please make sure to follow the existing coding style and conventions when contributing. Also, add appropriate comments to your code to make it easier for other developers to understand.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the [MIT License](LICENSE).
