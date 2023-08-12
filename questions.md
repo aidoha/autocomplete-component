@@ -24,7 +24,7 @@ Parent Component
          if (item.id === id) {
            return { ...item, name: 'new item' };
          }
-         return todo;
+         return item;
        });
        return { data };
      });
@@ -35,7 +35,7 @@ Parent Component
      return (
        <div>
          {data.map((item) => (
-           <Item key={item.id} name={item.name}/>
+           <Item key={item.id} item={item} />
          ))}
          <button onClick={() => handleChangeData(1)}>Change</button>
        </div>
@@ -49,9 +49,9 @@ Child Component
 ```
  class Item extends PureComponent {
    render() {
-     const { name } = this.props;
+     const { item } = this.props;
      return (
-       <div>{name}</div>
+       <div>{item.name}</div>
      );
    }
  }
